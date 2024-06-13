@@ -1160,9 +1160,9 @@
                   <div class="pt1">
                     <p class="p">We’re an eclectic bunch of creative thinkers and doers that help clients enter new markets, extend product lines and elevate their businesses to the next level.</p>
                   </div>
-                  <img src="images/mountains-river.webp" loading="lazy" alt="" class="mob-img">
+                  <!-- <img src="images/mountains-river.webp" loading="lazy" alt="" class="mob-img"> -->
                   <div>
-                    <h4 class="f2 tt2 lra">Miles <br>Canyon </h4>
+                    <!-- <h4 class="f2 tt2 lra">Miles <br>Canyon </h4> -->
                   </div>
                 </div>
               </div>
@@ -1173,7 +1173,7 @@
         <div class="sec-2-2">
         
           <div class="wrapper slide">
-            <div class="rel">
+            <!-- <div class="rel">
               <div class="slide-header _3">
                 <div class="web-block">
                   <div>
@@ -1182,8 +1182,8 @@
                 </div>
               </div>
               <div class="web-middle"></div>
-            </div>
-            <div data-delay="5000" data-animation="cross" class="sub-slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1000" data-infinite="true">
+            </div> -->
+            <div  class="sub-slider w-slider">
               <div class="w-slider-mask">
                 <div class="w-slide">
                   <div class="slide-sub tbb">
@@ -1237,7 +1237,7 @@
                       </div>
                     </div>
                     <div class="slide-i-holder">
-                      <img src="images/650465cea7b12ffeb656dc61_bb.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 80vw, (max-width: 991px) 40vw, 45vw" srcset="images/650465cea7b12ffeb656dc61_bb-p-500.webp 500w, images/650465cea7b12ffeb656dc61_bb-p-800.webp 800w, images/650465cea7b12ffeb656dc61_bb-p-1080.webp 1080w, images/650465cea7b12ffeb656dc61_bb.webp 1467w" alt="" class="i con">
+                      <img src="images/650465cea7b12ffeb656dc61_bb.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 80vw, (max-width: 991px) 40vw, 45vw" alt="" class="i con">
                     </div>
                   </div>
                 </div>
@@ -1260,7 +1260,7 @@
                   <h2>WANNA <br>SEE <br>MORE? </h2>
                 </div>
                 <div class="pt2">
-                  <a href="/work" class="btn w-inline-block">
+                  <a href="/" class="btn w-inline-block">
                     <div>See More Projects</div>
                   </a>
                 </div>
@@ -1321,7 +1321,7 @@
                   <div class="w-slider-mask">
                     <div class="w-slide">
                       <div class="test-inner">
-                        <img sizes="(max-width: 479px) 80vw, 297.8125px" srcset="images/650473e15204616247ec5eb8_Frame%20132-p-500.webp 500w, images/650473e15204616247ec5eb8_Frame%20132-p-800.webp 800w, images/650473e15204616247ec5eb8_Frame%20132-p-1080.webp 1080w, images/650473e15204616247ec5eb8_Frame%20132-p-1600.webp 1600w, images/650473e15204616247ec5eb8_Frame%20132.webp 1866w" alt="" src="images/650473e15204616247ec5eb8_Frame%20132.webp" loading="lazy" class="test--i">
+                        <img sizes="(max-width: 479px) 80vw, 297.8125px"  alt="" src="images/650473e15204616247ec5eb8_Frame%20132.webp" loading="lazy" class="test--i">
                         <p class="p _80">"The Mammoth team helped bring my vision into reality, honouring indigenous communities and creating a platform for education and storytelling for #Reconcilation!" <br>
                           <span class="co-name">- First People's Coffee</span>
                         </p>
@@ -1379,8 +1379,8 @@
               </div>
             </div>
           </div>
-          <img src="images/64f7a0d7bdbef7009ade0be3_image%20957.webp" loading="lazy" sizes="(max-width: 767px) 60vw, 400px" srcset="images/64f7a0d7bdbef7009ade0be3_image%20957-p-500.webp 500w, images/64f7a0d7bdbef7009ade0be3_image%20957.webp 560w" alt="" class="sec-5-left multiply">
-          <img src="images/64f7a0d78ff0813757143544_image%201045.webp" loading="lazy" sizes="(max-width: 767px) 200px, 300px" srcset="images/64f7a0d78ff0813757143544_image%201045-p-500.webp 500w, images/64f7a0d78ff0813757143544_image%201045.webp 587w" alt="" class="sec-5-right multiply">
+          <img src="images/64f7a0d7bdbef7009ade0be3_image%20957.webp" loading="lazy" sizes="(max-width: 767px) 60vw, 400px"  alt="" class="sec-5-left multiply">
+          <img src="images/64f7a0d78ff0813757143544_image%201045.webp" loading="lazy" sizes="(max-width: 767px) 200px, 300px"  alt="" class="sec-5-right multiply">
         </div>
         <div class="sec-6">
           <div class="wrapper padding">
@@ -1388,7 +1388,7 @@
               <div data-w-id="e271c2dd-0ad0-06b3-961e-4390888b876c" class="footer-sub">
                 <div class="footer-fvl">
                   <a href="/" class="footer-logo w-inline-block">
-                    <img src="images/650218ce47a4a607d331642b_mammoth-logo.webp" loading="lazy" sizes="250px" srcset="images/650218ce47a4a607d331642b_mammoth-logo-p-500.webp 500w, images/650218ce47a4a607d331642b_mammoth-logo-p-800.webp 800w, images/650218ce47a4a607d331642b_mammoth-logo-p-1080.webp 1080w, images/650218ce47a4a607d331642b_mammoth-logo-p-1600.png 1600w, images/650218ce47a4a607d331642b_mammoth-logo-p-2000.webp 2000w, images/650218ce47a4a607d331642b_mammoth-logo-p-2600.webp 2600w, images/650218ce47a4a607d331642b_mammoth-logo-p-3200.webp 3200w, images/650218ce47a4a607d331642b_mammoth-logo.webp 6879w" alt="">
+                    <img src="images/650218ce47a4a607d331642b_mammoth-logo.webp" loading="lazy" sizes="250px"  alt="">
                   </a>
                   <div class="fvl _2">
                     <a href="https://goo.gl/maps/ikrR7yaezA4DAmHc9" class="bold w-inline-block">
