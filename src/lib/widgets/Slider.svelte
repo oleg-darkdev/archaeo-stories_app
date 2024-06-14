@@ -330,7 +330,7 @@
   width: 45vw;
   height: 110vh;
   object-fit: contain;
-  background-image: url(../images/midle-map.svg);
+  background-image: url(/images/midle-map.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;

@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: "Satoshi";
-  src: url("../fonts/satoshi-Regular.woff")
+  src: url("/fonts/satoshi-Regular.woff")
     format("woff");
   font-weight: 400;
   font-style: normal;
@@ -14,7 +14,7 @@
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("../fonts/satoshi-Medium.woff")
+  src: url("/fonts/satoshi-Medium.woff")
     format("woff");
   font-weight: 500;
   font-style: normal;
@@ -22,18 +22,18 @@
 }
 @font-face {
   font-family: "Satoshi";
-  src: url("../fonts/satoshi-Bold.woff") format("woff");
+  src: url("/fonts/satoshi-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
-/* @font-face {
+@font-face {
   font-family: "Veneer";
-  src: url("../fonts/veneer.woff") format("woff");
+  src: url("/fonts/veneer.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-} */
+}
 
 .font-veneer {
   font-family: 'Veneer', sans-serif;
@@ -2445,7 +2445,7 @@ figure {
   grid-row-gap: 2rem;
   color: #fff;
   text-align: center;
-  background-image: url(../images/64f9e89446e85e03b480054a_full-hero-bg.webp);
+  background-image: url(/images/old/64f9e89446e85e03b480054a_full-hero-bg.webp);
   background-position: 50%;
   background-size: 200%;
   flex-direction: column;
@@ -2633,7 +2633,7 @@ figure {
 }
 .hero-2 {
   width: 100%;
-  background-image: url(../images/64f9e89446e85e03b480054a_full-hero-bg.webp);
+  background-image: url(/images/old/64f9e89446e85e03b480054a_full-hero-bg.webp);
   background-position: 50%;
   background-size: cover;
   flex-direction: column;
@@ -2701,7 +2701,7 @@ figure {
   display: block;
 }
 .slide-sub.way {
-  background-image: url(../images/650461de0df946043de8cd26_WAY%20Brand%203.webp);
+  background-image: url(/images/old/650461de0df946043de8cd26_WAY%20Brand%203.webp);
   background-position: 50%;
   background-size: cover;
 }
@@ -2922,7 +2922,7 @@ figure {
       rgba(66, 45, 27, 0.23),
       rgba(66, 45, 27, 0.23)
     ),
-    url(../images/footer-bg.webp);
+    url(/images/footer-bg.webp);
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -3006,7 +3006,7 @@ figure {
 .sec-4-bg {
   width: 100%;
   height: 100%;
-  background-image: url(../images/stone-map.svg);
+  background-image: url(/images/stone-map.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3026,7 +3026,7 @@ figure {
   z-index: 3;
   width: 30vw;
   height: 400px;
-  background-image: url(../images/64fb2a0f77f405eb57e38edb_image_943-removebg-preview.webp);
+  background-image: url(/images/old/64fb2a0f77f405eb57e38edb_image_943-removebg-preview.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3043,7 +3043,7 @@ figure {
 .sec-4-i3 {
   width: 30vw;
   height: 100%;
-  background-image: url(../images/64fb2a0778a92d721cf272bb_image%201041.webp);
+  background-image: url(/images/old/64fb2a0778a92d721cf272bb_image%201041.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3078,7 +3078,7 @@ figure {
 .mapp {
   width: 100vw;
   height: 96%;
-  background-image: url(../images/banner-map.svg);
+  background-image: url(/images/banner-map.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3138,7 +3138,7 @@ figure {
 .web-middle {
   z-index: 2;
   height: 35vh;
-  background-image: url(../images/64fb5d1f6c9d9b322be3373d_Frame%201.webp);
+  background-image: url(/images/old/64fb5d1f6c9d9b322be3373d_Frame%201.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3165,7 +3165,7 @@ figure {
 .horse-img {
   width: 25vw;
   height: 40vh;
-  background-image: url(../images/64fa0a11b0db51b8bd732e10_image_952-removebg-preview.webp);
+  background-image: url(/images/old/64fa0a11b0db51b8bd732e10_image_952-removebg-preview.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3199,7 +3199,7 @@ figure {
   z-index: 6;
   width: 800px;
   height: 700px;
-  background-image: url(../images/64fb6a44cb4f0795d6f26957_Group%20349.webp);
+  background-image: url(/images/old/64fb6a44cb4f0795d6f26957_Group%20349.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3218,7 +3218,7 @@ figure {
   width: 150vw;
   height: 250px;
   opacity: 0.82;
-  background-image: url(../images/64fb6c411da93b95aa9ee94b_new-2.webp);
+  background-image: url(/images/old/64fb6c411da93b95aa9ee94b_new-2.webp);
   background-repeat: repeat-x;
   background-size: contain;
   top: auto;
@@ -3235,7 +3235,7 @@ figure {
   z-index: 3;
   width: 20vw;
   height: 200px;
-  background-image: url(../images/650093c44d2292a3fb2183ca_new-boat.webp);
+  background-image: url(/images/old/650093c44d2292a3fb2183ca_new-boat.webp);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3735,7 +3735,7 @@ figure {
   height: 100vh;
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
-  background-image: url(../images/64f9e89446e85e03b480054a_full-hero-bg.webp);
+  background-image: url(/images/old/64f9e89446e85e03b480054a_full-hero-bg.webp);
   background-position: 50%;
   background-size: cover;
   flex-direction: column;
@@ -4989,7 +4989,7 @@ figure {
   .nugget {
     width: 80%;
     height: 300px;
-    background-image: url(../images/stone.webp);
+    background-image: url(/images/stone.webp);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5005,7 +5005,7 @@ figure {
   .mob-map-1 {
     width: 50vw;
     height: 100vh;
-    background-image: url(../images/big-map.svg));
+    background-image: url(/images/big-map.svg));
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5020,7 +5020,7 @@ figure {
   .mob-map-2 {
     width: 58vw;
     height: 130vh;
-    background-image: url(../images/big-map.svg));
+    background-image: url(/images/big-map.svg));
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5034,7 +5034,7 @@ figure {
   .mob-map {
     width: 110vw;
     height: 165vh;
-    background-image: url(../images/big-map.svg);
+    background-image: url(/images/big-map.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
