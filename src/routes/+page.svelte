@@ -1,5 +1,5 @@
 <script>
-	// import {  } from '$widgets';
+	import { Slider } from '$widgets';
 	// import { } from '$entities';
 	// import {  } from '$shared';
 </script>
@@ -1138,9 +1138,9 @@
           <div class="sec-2-main">
             <div class="rel _100 _2">
               <div class="left">
-                <h2 class="f4">HI THERE,</h2>
+                <h2 class="font-veneer">HI THERE,</h2>
                 <div class="rot">
-                  <h1 class="fs0 f4">we're on an <br> archaeological excavation. </h1>
+                  <h1 class="font-veneer">we're on an <br> archaeological excavation. </h1>
                 </div>
                 <div class="text-block2">
                   <h4 class="tt2">An educational board game that introduces players to the fascinating world of archaeology.</h4>
@@ -1172,90 +1172,13 @@
 
           </div>
         </div>
-        <div class="sec-2-2">
-
-          <div class="wrapper slide">
-            <!-- <div class="rel">
-              <div class="slide-header _3">
-                <div class="web-block">
-                  <div>
-                    <h2 class="f4">Lorem impsum</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="web-middle"></div>
-            </div> -->
-            <div  class="sub-slider w-slider">
-              <div class="w-slider-mask">
-                <div class="w-slide">
-                  <div class="slide-sub ">
-                    <div class="slide-t-holder bg-[#793610]">
-                      <div class="t-hold-sub">
-                        <div>
-                          <div class="tagline">FOOD &amp; BEVERAGE</div>
-                        </div>
-                        <div>
-                          <h6 class="slide-title">Lorem Ipsum is simply dummy text of the printing and typesetting industr</h6>
-                        </div>
-                        <div>
-                          <div class="sub-title">Lorem Ipsum is simply</div>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industr</p>
-                        </div>
-                        <div>
-                          <div class="sub-title">Lorem Ipsum is simply</div>
-                          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industr</p>
-                        </div>
-                      </div>
-                      <div>
-                        <div class="tagline _2">Lorem Ipsum is simply</div>
-                      </div>
-                    </div>
-                    <div class="slide-i-holder">
-                      <img sizes="(max-width: 479px) 100vw, (max-width: 767px) 80vw, (max-width: 991px) 40vw, 45vw"  alt="" src="images/slider-1.webp" loading="lazy" class="i">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="sub-arrow left w-slider-arrow-left">
-                <div class="black-ico w-icon-slider-left"></div>
-              </div>
-              <div class="sub-arrow right w-slider-arrow-right">
-                <div class="black-ico w-icon-slider-right"></div>
-              </div>
-              <div class="h w-slider-nav"></div>
-            </div>
-          </div>
-          <div class="wrapper">
-            <div class="sec-2--li"></div>
-            <div class="_100 see-more pt2 pb2">
-              <div>
-                <div class="f4 burgundy">
-                  <!-- WANNA <br> -->
-                  <h2>SEE <br>MORE? </h2>
-                </div>
-                <div class="pt2">
-                  <a href="https://44games.vercel.app/" target="_blank" class="btn w-inline-block">
-                    <div>More of our educational games</div>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <!-- <div class="horse-man">
-              <div class="lesspad">
-                <div class="rot-rev">
-                  <h3 class="f2 tt2">Don’t get <br>trapped in <br>legacy branding </h3>
-                </div>
-              </div>
-              <div class="horse-img multiply"></div>
-            </div> -->
-          </div>
-        </div>
+        <Slider />
         <div class="sec-3">
           <div class="wrapper fvc">
             <div class="rel">
               <div class="pl aa">
                 <div class="rot">
-                  <h1 class="fs0 f4">about <br/> project</h1>
+                  <h1 class="font-veneer">about <br/> project</h1>
                 </div>
               </div>
               <div class="_100 pt4">
@@ -1333,7 +1256,7 @@
           <div class="wrapper padding">
             <div class="half">
               <div class="gd1--gp2 left">
-                <h1 class="fs0 f4">Contact with the author</h1>
+                <h1 class="font-veneer">Contact with the author</h1>
                 <p class="p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries. #BeyondTheYukon</p>
 
               </div>
@@ -1349,7 +1272,7 @@
           <div class="wrapper padding">
             <div class="_800 lra zz">
               <div class="fvc tc">
-                <h2 class="fs0 f4">Lorem ipsum is placeholder text.</h2>
+                <h2 class="font-veneer">Lorem ipsum is placeholder text.</h2>
                 <div class="pt2 pb2">
                   <p class="p w2 ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                 </div>
@@ -1392,7 +1315,7 @@
                     </div>
                   </div>
                 </div>
-                <div id="w-node-_75f3c98f-f27f-ff4f-6582-a18d392489e1-570e3a99" class="form-block w-form">
+                <div id="w-node-_75f3c98f-f27f-ffont-veneerf-6582-a18d392489e1-570e3a99" class="form-block w-form">
 
                   <div class="success-message w-form-done">
                     <div class="succ">
