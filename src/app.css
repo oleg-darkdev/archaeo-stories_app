@@ -2,7 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+p {
+  font-family: Work Sans, sans-serif;
+  line-height: 1.45;
+}
 
+:root {
+  --sienna: #b1560e;
+  --white: white;
+  --black: black;
+  --tan: #c19f7a;
+  --papaya-whip: #eae0c7;
+  --sienna-2: #92633a;
+}
 
 @font-face {
   font-family: "Satoshi";
@@ -1959,14 +1971,7 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
-:root {
-  --sienna: #b1560e;
-  --white: white;
-  --black: black;
-  --tan: #c19f7a;
-  --papaya-whip: #eae0c7;
-  --sienna-2: #92633a;
-}
+
 body {
   letter-spacing: 0;
   font-size: 1rem;
@@ -2574,16 +2579,7 @@ figure {
   left: 0%;
   right: 0%;
 }
-.sec-2 {
-  width: 100%;
-  background-color: var(--papaya-whip);
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 5rem;
-  display: flex;
-  position: relative;
-}
+
 ._2-road {
   width: 75%;
   object-fit: contain;
@@ -2595,14 +2591,7 @@ figure {
   position: relative;
   overflow: visible;
 }
-.sec-2-main {
-  z-index: 5;
-  width: 100%;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 2rem;
-  display: flex;
-}
+
 .fc-red {
   color: var(--sienna);
 }
@@ -2831,10 +2820,7 @@ figure {
   object-fit: fill;
   align-self: center;
 }
-.p {
-  font-family: Work Sans, sans-serif;
-  line-height: 1.45;
-}
+
 .p._80 {
   width: 80%;
 }
@@ -3424,21 +3410,14 @@ figure {
 .web-block {
   margin-top: -41px;
 }
-.text-block2 {
-  max-width: 400px;
-  margin-top: 4rem;
-}
+
 .favs-sub {
   width: 30ch;
   color: var(--sienna);
   text-align: center;
   margin-top: 2rem;
 }
-._1--right {
-  width: 35vw;
-  flex-direction: column;
-  display: flex;
-}
+
 .pl {
   margin-left: 4rem;
 }
@@ -4298,9 +4277,7 @@ figure {
   .sec-4-t1.rot {
     right: 0;
   }
-  .mapp {
-    left: 5%;
-  }
+
   .last {
     width: 15rem;
     top: -26px;

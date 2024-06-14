@@ -82,7 +82,7 @@
 		<!-- <div class="horse-man">
               <div class="lesspad">
                 <div class="rot-rev">
-                  <h3 class="f2 tt2">Don’t get <br>trapped in <br>legacy branding </h3>
+                  <h3 class="f2 uppercase">Don’t get <br>trapped in <br>legacy branding </h3>
                 </div>
               </div>
               <div class="horse-img multiply"></div>
