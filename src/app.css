@@ -3,6 +3,43 @@
 @tailwind utilities;
 
 
+
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi-Medium.woff")
+    format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Satoshi";
+  src: url("../fonts/satoshi-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Veneer";
+  src: url("../fonts/veneer.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+.font-veneer {
+  font-family: Veneer, sans-serif;
+}
+
 /**
  * Lumos Color 1.0.4
  * Copyright 2023 Timothy Ricks
@@ -15,6 +52,7 @@
  * Released under the MIT License
  * Released on: July 30, 2023
 */
+
 
 a {
   color: inherit;
@@ -350,24 +388,7 @@ th {
   font-weight: 400;
   font-style: normal;
 }
-[class^="w-icon-"],
-[class*="\ w-icon-"] {
-  speak: none;
-  font-variant: normal;
-  text-transform: none;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  font-family: webflow-icons !important;
-}
-.w-icon-slider-right:before {
-  content: "";
-}
-.w-icon-slider-left:before {
-  content: "";
-}
+
 .w-icon-nav-menu:before {
   content: "";
 }
@@ -1249,25 +1270,7 @@ textarea.w-select {
   background: #ddd;
   position: relative;
 }
-.w-slider-mask {
-  z-index: 1;
-  height: 100%;
-  white-space: nowrap;
-  display: block;
-  position: relative;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-}
-.w-slide {
-  vertical-align: top;
-  width: 100%;
-  height: 100%;
-  white-space: normal;
-  text-align: left;
-  display: inline-block;
-  position: relative;
-}
+
 .w-slider-nav {
   z-index: 2;
   height: 40px;
@@ -1324,53 +1327,7 @@ textarea.w-select {
 .w-slider-dot:focus.w-active {
   box-shadow: none;
 }
-.w-slider-arrow-left,
-.w-slider-arrow-right {
-  width: 80px;
-  cursor: pointer;
-  color: #fff;
-  -webkit-tap-highlight-color: transparent;
-  tap-highlight-color: transparent;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  margin: auto;
-  font-size: 40px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-}
-.w-slider-arrow-left [class^="w-icon-"],
-.w-slider-arrow-right [class^="w-icon-"],
-.w-slider-arrow-left [class*="\ w-icon-"],
-.w-slider-arrow-right [class*="\ w-icon-"] {
-  position: absolute;
-}
-.w-slider-arrow-left:focus,
-.w-slider-arrow-right:focus {
-  outline: 0;
-}
-.w-slider-arrow-left {
-  z-index: 3;
-  right: auto;
-}
-.w-slider-arrow-right {
-  z-index: 4;
-  left: auto;
-}
-.w-icon-slider-left,
-.w-icon-slider-right {
-  width: 1em;
-  height: 1em;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
+
 .w-slider-aria-label {
   clip: rect(0 0 0 0);
   height: 1px;
@@ -2769,24 +2726,7 @@ figure {
   height: auto;
   background-color: transparent;
 }
-.black-ico {
-  color: var(--black);
-}
-.slide-sub {
-  width: 90%;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
-  background-color: var(--black);
-  color: var(--white);
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  align-items: stretch;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  position: relative;
-}
+
 .slide-sub._2 {
   display: block;
 }
@@ -2811,9 +2751,6 @@ figure {
 }
 ._100 {
   width: 100%;
-}
-._100.see-more {
-  padding-left: 100px;
 }
 .btn {
   z-index: 20;
@@ -3175,11 +3112,7 @@ figure {
   left: 0%;
   right: 0%;
 }
-.sec-2-2 {
-  /* background-color: var(--papaya-whip); */
-  margin-top: -250px;
-  position: relative;
-}
+
 .mapp {
   width: 100vw;
   height: 96%;
@@ -3253,20 +3186,7 @@ figure {
   left: 0%;
   right: 38%;
 }
-.sec-2--li {
-  z-index: 3;
-  width: 45vw;
-  height: 110vh;
-  object-fit: contain;
-  background-image: url(../images/midle-map.svg);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  position: absolute;
-  top: -35vh;
-  bottom: auto;
-  left: 8%;
-}
+
 .horse-man {
   grid-column-gap: 6rem;
   grid-row-gap: 6rem;
@@ -3964,16 +3884,7 @@ figure {
   bottom: 10vh;
   right: 32.1vw;
 }
-.slide-i-holder {
-  width: 100%;
-  height: 100%;
-  max-height: 110vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
+
 .slide-t-holder {
   grid-column-gap: 2rem;
   grid-row-gap: 2rem;
@@ -4001,13 +3912,7 @@ figure {
   font-size: 0.9rem;
   font-weight: 300;
 }
-.t-hold-sub {
-  grid-column-gap: 2rem;
-  grid-row-gap: 2rem;
-  flex-direction: column;
-  align-items: flex-start;
-  display: flex;
-}
+
 .typeform--form {
   width: 100vw;
   height: 100vh;
@@ -4386,10 +4291,7 @@ figure {
   .man {
     width: 34rem;
   }
-  .sec-2--li {
-    height: 100vh;
-    left: 1%;
-  }
+
   .horse-img.multiply {
     width: 15vw;
   }
@@ -4399,9 +4301,7 @@ figure {
   .container {
     width: 94%;
   }
-  .slide-i-holder {
-    max-height: 100vh;
-  }
+
   .slide-t-holder {
     justify-content: center;
   }
@@ -4492,11 +4392,7 @@ figure {
     top: 20px;
     left: 0;
   }
-  .sec-2--li {
-    top: -20vh;
-    left: auto;
-    right: 311px;
-  }
+
   .horse-man {
     grid-column-gap: 5rem;
     grid-row-gap: 5rem;
@@ -4583,10 +4479,7 @@ figure {
     bottom: -4.1vh;
     right: 15vw;
   }
-  .slide-i-holder {
-    height: 100%;
-    max-height: 100%;
-  }
+
   .slide-t-holder {
     justify-content: space-between;
     padding: 2rem;
@@ -4609,6 +4502,7 @@ figure {
     padding-right: 32px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .vt1._800 {
     max-width: 80%;
@@ -4656,9 +4550,7 @@ figure {
   .right-image {
     display: none;
   }
-  .wrapper.slide {
-    width: 100%;
-  }
+
   .slide-sub {
     flex-direction: column-reverse;
     grid-template-columns: 1fr;
@@ -4667,15 +4559,7 @@ figure {
   .slide-sub._2 {
     height: 100%;
   }
-  .sub-arrow.right {
-    right: -10px;
-  }
-  .sub-arrow.left {
-    left: -10px;
-  }
-  ._100.see-more {
-    padding-left: 25px;
-  }
+
   .sec-3-img-2.multiply {
     width: 15rem;
   }
@@ -4748,10 +4632,7 @@ figure {
   .slide-header._3 {
     left: 18vw;
   }
-  .sec-2--li {
-    width: 35vw;
-    height: 100vh;
-  }
+
   .horse-man {
     margin-bottom: -50px;
   }
@@ -4854,14 +4735,7 @@ figure {
     bottom: -19.9vh;
     right: 12.5vw;
   }
-  .slide-i-holder {
-    height: 60vh;
-    max-height: 400px;
-  }
-  .slide-i-holder.full {
-    height: 100%;
-    max-height: 100%;
-  }
+
   .pop-up-header {
     font-size: 32px;
   }
@@ -4973,12 +4847,7 @@ figure {
   .slide-sub {
     width: 100%;
   }
-  .sub-arrow.right {
-    right: -16px;
-  }
-  .sub-arrow.left {
-    left: -16px;
-  }
+
   .btn {
     padding: 1rem 1.75rem;
     font-size: 0.8rem;
@@ -5093,12 +4962,7 @@ figure {
     top: -16vh;
     right: -61%;
   }
-  .sec-2--li {
-    width: 100vw;
-    height: 42vh;
-    background-image: url(../images/64fb5d1fb64de75a80d75b76_Frame%202.webp);
-    right: -25%;
-  }
+
   .horse-man {
     grid-column-gap: 3rem;
     grid-row-gap: 3rem;
@@ -5331,36 +5195,7 @@ figure {
 #w-node-_47034ffa-3d5c-f285-f176-a80e3188370b-87884607 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
-@font-face {
-  font-family: "Satoshi";
-  src: url("../fonts/64f79baf8ff08137570e3ab3_Satoshi-Regular.woff")
-    format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Satoshi";
-  src: url("../fonts/64f79baf8ff08137570e3ab2_Satoshi-Medium.woff")
-    format("woff");
-  font-weight: 500;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Satoshi";
-  src: url("../fonts/64f79baf8ff08137570e3ab4_Satoshi-Bold.woff") format("woff");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Veneer";
-  src: url("../fonts/64fb3057ab2b40299e25cbf2_Veneer.woff") format("woff");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
+
 
 
 /**
