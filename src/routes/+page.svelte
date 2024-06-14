@@ -520,7 +520,7 @@
               --alt-selection-fc: rgba(var(--dark-1), 1);
             }
 
-           
+
             /* section mode 2 (dark mode) */
             [section-mode="2"],
             [class*="sm0-2"],
@@ -1140,25 +1140,27 @@
               <div class="left">
                 <h2 class="f4">HI THERE,</h2>
                 <div class="rot">
-                  <h1 class="fs0 f4">WE'RE <br>MAMMOTH </h1>
+                  <h1 class="fs0 f4">we're on an <br> archaeological excavation. </h1>
                 </div>
                 <div class="text-block2">
-                  <h4 class="tt2">A Full-Service creative agency with SPIRIT, specializing in tourism, food and beverage AND MORE.</h4>
+                  <h4 class="tt2">An educational board game that introduces players to the fascinating world of archaeology.</h4>
                 </div>
               </div>
               <div class="_1--right">
-                <img src="images/mountains.webp" loading="lazy" alt="Mountains image" class="right-image">
-                <img src="images/second-img.webp" loading="lazy" sizes="(max-width: 767px) 100vw, (max-width: 1919px) 35vw, 400px" alt="" class="yk-map multiply">
+                <!-- mountains.webp -->
+                <img src="images/paleontology.png" loading="lazy" alt="Mountains image" class="right-image">
+                <img src="images/archaeology_metal.png" loading="lazy" alt="" class="yk-map multiply">
               </div>
             </div>
-            <div class="rel _100 _2 second">
-              <div class="man-wrap">
-                <img src="images/tourist.webp" loading="lazy" alt="" class="Tourist man">
+            <div class="rel _100 _2 second ">
+              <div class="man-wrap h-40 my-20">
+                <!-- images/archaeology_metal.png -->
+                <!-- <img src="" loading="lazy" alt="" class="Tourist man"> -->
               </div>
               <div class="left _2">
                 <div class="right-align mob">
                   <div class="pt1">
-                    <p class="p">We’re an eclectic bunch of creative thinkers and doers that help clients enter new markets, extend product lines and elevate their businesses to the next level.</p>
+                    <p class="p">The game integrates traditional board game with modern digital technologies, creating a fun and educational experience for players of all ages.</p>
                   </div>
                   <!-- <img src="images/mountains-river.webp" loading="lazy" alt="" class="mob-img"> -->
                   <div>
@@ -1171,7 +1173,7 @@
           </div>
         </div>
         <div class="sec-2-2">
-        
+
           <div class="wrapper slide">
             <!-- <div class="rel">
               <div class="slide-header _3">
@@ -1186,8 +1188,8 @@
             <div  class="sub-slider w-slider">
               <div class="w-slider-mask">
                 <div class="w-slide">
-                  <div class="slide-sub tbb">
-                    <div class="slide-t-holder">
+                  <div class="slide-sub ">
+                    <div class="slide-t-holder bg-[#793610]">
                       <div class="t-hold-sub">
                         <div>
                           <div class="tagline">FOOD &amp; BEVERAGE</div>
@@ -1213,35 +1215,6 @@
                     </div>
                   </div>
                 </div>
-                <div class="w-slide">
-                  <div class="slide-sub ab">
-                    <div class="slide-t-holder">
-                      <div class="t-hold-sub">
-                        <div>
-                          <div class="tagline">FOOD &amp; BEVERAGE</div>
-                        </div>
-                        <div>
-                          <h6 class="slide-title">New Identity for an Expanding Restaurant &amp; Liquor Retailer</h6>
-                        </div>
-                        <div>
-                          <div class="sub-title">Mammoth Approach</div>
-                          <p>Developed a multi-tiered brand strategy for the largest private liquor retailer North of 60, providing the foundation to build a new brand website with ease.</p>
-                        </div>
-                        <div>
-                          <div class="sub-title">The Outcome</div>
-                          <p>Consistent brand &amp; online experience for consumers across all three businesses.</p>
-                        </div>
-                      </div>
-                      <div>
-                        <div class="tagline _2">created by mammoth agency 2023</div>
-                      </div>
-                    </div>
-                    <div class="slide-i-holder">
-                      <img src="images/650465cea7b12ffeb656dc61_bb.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 80vw, (max-width: 991px) 40vw, 45vw" alt="" class="i con">
-                    </div>
-                  </div>
-                </div>
-                
               </div>
               <div class="sub-arrow left w-slider-arrow-left">
                 <div class="black-ico w-icon-slider-left"></div>
@@ -1257,23 +1230,24 @@
             <div class="_100 see-more pt2 pb2">
               <div>
                 <div class="f4 burgundy">
-                  <h2>WANNA <br>SEE <br>MORE? </h2>
+                  <!-- WANNA <br> -->
+                  <h2>SEE <br>MORE? </h2>
                 </div>
                 <div class="pt2">
-                  <a href="/" class="btn w-inline-block">
-                    <div>See More Projects</div>
+                  <a href="https://44games.vercel.app/" target="_blank" class="btn w-inline-block">
+                    <div>More of our educational games</div>
                   </a>
                 </div>
               </div>
             </div>
-            <div class="horse-man">
+            <!-- <div class="horse-man">
               <div class="lesspad">
                 <div class="rot-rev">
                   <h3 class="f2 tt2">Don’t get <br>trapped in <br>legacy branding </h3>
                 </div>
               </div>
               <div class="horse-img multiply"></div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="sec-3">
@@ -1281,29 +1255,33 @@
             <div class="rel">
               <div class="pl aa">
                 <div class="rot">
-                  <h1 class="fs0 f4">REVIEWS</h1>
+                  <h1 class="fs0 f4">about <br/> project</h1>
                 </div>
               </div>
               <div class="_100 pt4">
                 <div class="_80vw fc1">
-                  <h1 class="tt2 tc">Don’t take it from us, here’s what clients have to say about working with Mammoth.</h1>
+                  <h1 class="tt2 tc">Lorem ipsum is placeholder text commonly used.</h1>
                 </div>
               </div>
             </div>
-            <img src="images/64fb5dc0eafa3fed194074e1_image_1042-removebg-preview.webp" loading="lazy" alt="" class="sec-3-img-2 multiply">
+            <!-- <img src="images/64fb5dc0eafa3fed194074e1_image_1042-removebg-preview.webp" loading="lazy" alt="" class="sec-3-img-2 multiply"> -->
           </div>
         </div>
         <div class="sec-4">
-          <div class="sec-4-bg multiply"></div>
+          <div class="sec-4-bg multiply "></div>
           <div class="wrapper full mob">
             <div class="rel">
               <div class="slide-b-wrap _1">
                 <div  class="test-slider _1 w-slider">
-                  
+
                   <div class="w-slide">
                       <div class="test-inner">
                         <!-- <img sizes="(max-width: 479px) 80vw, 297.8125px" srcset="images/65051584a148878dfed621fb_Frame%20128-p-500.webp 500w, images/65051584a148878dfed621fb_Frame%20128-p-800.webp 800w, images/65051584a148878dfed621fb_Frame%20128-p-1080.webp 1080w, images/65051584a148878dfed621fb_Frame%20128-p-1600.webp 1600w, images/65051584a148878dfed621fb_Frame%20128.webp 1866w" alt="" src="images/65051584a148878dfed621fb_Frame%20128.webp" loading="lazy" class="test--i"> -->
-                        <p class="p _80">"Mammoth steered our ownership group towards a single vision that bridged three businesses into one, giving a cohesive brand experience." <br>
+                        <p class="p _80">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                         </p>
+                         <p class="p _80">
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
                           <span class="co-name">- Big Bear Co.</span>
                         </p>
                       </div>
@@ -1312,7 +1290,7 @@
                 </div>
                 <div class="sec-4-t1 rot">
                   <div class="ch-smal">
-                    <h3 class="f2 tt2">HUNT DOWN LONG-TERM RESULTS</h3>
+                    <h3 class="f2 tt2">Lorem ipsum dolor sit amet consectetur </h3>
                   </div>
                 </div>
               </div>
@@ -1321,14 +1299,18 @@
                   <div class="w-slider-mask">
                     <div class="w-slide">
                       <div class="test-inner">
-                        <img sizes="(max-width: 479px) 80vw, 297.8125px"  alt="" src="images/650473e15204616247ec5eb8_Frame%20132.webp" loading="lazy" class="test--i">
-                        <p class="p _80">"The Mammoth team helped bring my vision into reality, honouring indigenous communities and creating a platform for education and storytelling for #Reconcilation!" <br>
-                          <span class="co-name">- First People's Coffee</span>
+                        <!-- <img sizes="(max-width: 479px) 80vw, 297.8125px"  alt="" src="images/650473e15204616247ec5eb8_Frame%20132.webp" loading="lazy" class="test--i"> -->
+                        <p class="p _80">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                         </p>
+                         <p class="p _80">
+                          Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br>
+                          <span class="co-name">- Big Bear Co.</span>
                         </p>
                       </div>
                     </div>
-                    
-                  
+
+
               </div>
             </div>
           </div>
@@ -1337,12 +1319,12 @@
             <div class="rel">
               <div class="fvc tc fc1">
                 <div class="rot-rev">
-                  <h2 class="f2 tt2 pb2">Mine your <br>Golden Ideas <br>with Mammoth <br>Agency </h2>
+                  <h2 class="f2 tt2 pb2">Lorem ipsum  <br>dolor sit amet <br>, consectetur  <br>adipiscing elit, sed. </h2>
                 </div>
               </div>
             </div>
           </div>
-          <div class="sec-4-i2 multiply"></div>
+          <!-- <div class="sec-4-i2 multiply"></div> -->
           <div class="mob-map-1"></div>
           <div class="mob-map-2"></div>
         </div>
@@ -1351,39 +1333,39 @@
           <div class="wrapper padding">
             <div class="half">
               <div class="gd1--gp2 left">
-                <h1 class="tt2">Discover what our new Calgary clients are raving about!</h1>
-                <p class="p">We now offer our full branding, website development, and packaging design services across Alberta! From the Yukon to your doorstep — find out how Mammoth can help your business. #BeyondTheYukon</p>
-                <div class="btn calendly w-embed w-script">
+                <h1 class="fs0 f4">Contact with the author</h1>
+                <p class="p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries. #BeyondTheYukon</p>
 
-                </div>
               </div>
               <div id="w-node-_47034ffa-3d5c-f285-f176-a80e3188370b-570e3a99" class="rel fvc">
-                <img src="images/64fa2b4e140eb5798a6633ba_image_1084-removebg-preview.webp" loading="lazy" alt="" class="multiply sec-5-i1">
-                <img src="images/6501d8192ced15622456afae_matt.png" loading="lazy" alt="" class="matt-img">
+                <img src="images/oleg-archeo.JPG" loading="lazy" alt="Author on archaeological excavations" class="multiply sec-5-i1">
+                <!-- <img src="images/oleg-archeo.JPG" loading="lazy" alt="" class="matt-img"> -->
               </div>
             </div>
           </div>
         </div>
-        <div class="sec-5 tw _2">
+        <div class="sec-5 tw  p-20">
           <div class="white-rot _2"></div>
           <div class="wrapper padding">
             <div class="_800 lra zz">
               <div class="fvc tc">
-                <h2 class="tt2">STILL UNSURE IF THIS APPLIES TO YOUR BUSINESS? TAKE OUR FREE QUIZ, NO STRINGS ATTACHED!</h2>
+                <h2 class="fs0 f4">Lorem ipsum is placeholder text.</h2>
                 <div class="pt2 pb2">
-                  <p class="p w2">Take our free quiz below and learn how Mammoth can help your business venture beyond the ordinary.</p>
+                  <p class="p w2 ">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
                 </div>
-                <a href="https://form.typeform.com/to/Bs1JxY2a" target="_blank" class="btn yellow w-inline-block">
-                  <div>TAKE THE QUIZ</div>
+                <a href="/quiz" target="_blank" class="btn yellow w-inline-block">
+                  <div>START THE QUIZ</div>
                 </a>
               </div>
             </div>
           </div>
-          <img src="images/64f7a0d7bdbef7009ade0be3_image%20957.webp" loading="lazy" sizes="(max-width: 767px) 60vw, 400px"  alt="" class="sec-5-left multiply">
-          <img src="images/64f7a0d78ff0813757143544_image%201045.webp" loading="lazy" sizes="(max-width: 767px) 200px, 300px"  alt="" class="sec-5-right multiply">
+          <!-- images/64f7a0d7bdbef7009ade0be3_image%20957.webp -->
+
+          <img src="images/archaeology_metal.png" loading="lazy"  alt="" class="sec-5-left multiply">
+          <img src="images/paleontology.png" loading="lazy"   alt="" class="sec-5-right multiply">
         </div>
-        <div class="sec-6">
-          <div class="wrapper padding">
+        <!-- <div class="sec-6 w-full"> -->
+          <!-- <div class="wrapper padding">
             <div class="rel">
               <div data-w-id="e271c2dd-0ad0-06b3-961e-4390888b876c" class="footer-sub">
                 <div class="footer-fvl">
@@ -1411,15 +1393,7 @@
                   </div>
                 </div>
                 <div id="w-node-_75f3c98f-f27f-ff4f-6582-a18d392489e1-570e3a99" class="form-block w-form">
-                  <!-- <form id="wf-form-OOT-Footer-Form" name="wf-form-OOT-Footer-Form" data-name="OOT Footer Form" method="get" class="form" data-wf-page-id="64f79baf8ff08137570e3a99" data-wf-element-id="75f3c98f-f27f-ff4f-6582-a18d392489e2">
-                    <div class="right-align pb2 mob">
-                      <h2>Wanna chat? <br>Send us a note! </h2>
-                    </div>
-                    <input class="field w-input" maxlength="256" name="name" data-name="Name" placeholder="Your Name" type="text" id="name" required="">
-                    <input class="field w-input" maxlength="256" name="email" data-name="Email" placeholder="Your email" type="email" id="email" required="">
-                    <textarea id="Message" name="Message" maxlength="5000" data-name="Message" placeholder="Message" required="" class="field ta textarea w-input"></textarea>
-                    <input type="submit" data-wait="Please wait..." class="btn calendly w-button" value="Submit">
-                  </form> -->
+
                   <div class="success-message w-form-done">
                     <div class="succ">
                       <div>Thank you! Your submission has been received!</div>
@@ -1431,10 +1405,10 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="sec-6-bg">
+          </div> -->
+          <!-- <div class="sec-6-bg">
             <div class="sec-6-boat multiply"></div>
           </div>
-        </div>
+        </div> -->
       </main>
     </div>
