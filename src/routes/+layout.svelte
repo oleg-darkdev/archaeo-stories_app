@@ -9,7 +9,7 @@
 </script>
 
 
-<div class="pt-40 overflow-x-hidden bg-[#eae0c7]">
+<div class="pt-20 overflow-x-hidden bg-[#eae0c7]">
   <slot />
 </div>
 
