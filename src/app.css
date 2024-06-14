@@ -27,17 +27,16 @@
   font-style: normal;
   font-display: swap;
 }
-@font-face {
+/* @font-face {
   font-family: "Veneer";
   src: url("../fonts/veneer.woff") format("woff");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-}
-
+} */
 
 .font-veneer {
-  font-family: Veneer, sans-serif;
+  font-family: 'Veneer', sans-serif;
 }
 
 /**
@@ -160,28 +159,7 @@ body,
   --sc2: var(--m-sc2); --sc2-hover: var(--m-sc2-hover); --sc2-active: var(--m-sc2-active);
   --sc3: var(--m-sc3); --sc3-hover: var(--m-sc3-hover); --sc3-active: var(--m-sc3-active);
 }
-/* hover variables */
-@media (pointer: fine) {
-  [card-mode]:not([class*="hv0"]):hover, [class*="cm0"]:not([class*="hv0"]):hover,
-  a:hover [card-mode]:not([class*="hv0"]), a:hover [class*="cm0"]:not([class*="hv0"]),
-  [element-mode]:not([class*="hv0"]):hover, [class*="em0"]:not([class*="hv0"]):hover,
-  a:hover [element-mode]:not([class*="hv0"]), a:hover [class*="em0"]:not([class*="hv0"]),
-  [btn-mode]:not([class*="hv0"]):hover, [class*="bm0"]:not([class*="hv0"]):hover,
-  a:hover [btn-mode]:not([class*="hv0"]), a:hover [class*="bm0"]:not([class*="hv0"]),
-  [link-mode]:not([class*="hv0"]):hover, [class*="lm0"]:not([class*="hv0"]):hover,
-  a:hover [link-mode]:not([class*="hv0"]), a:hover [class*="lm0"]:not([class*="hv0"])  {
-    --bg1: var(--bg1-hover); --bg1i: var(--bg1i-hover); --bg1b: var(--bg1b-hover); --bg1s: var(--bg1s-hover);
-    --bg2: var(--bg2-hover); --bg2i: var(--bg2i-hover); --bg2b: var(--bg2b-hover); --bg2s: var(--bg2s-hover);
-    --bg3: var(--bg3-hover); --bg3i: var(--bg3i-hover); --bg3b: var(--bg3b-hover); --bg3s: var(--bg3s-hover);
-    --bg4: var(--bg4-hover); --bg4i: var(--bg4i-hover); --bg4b: var(--bg4b-hover); --bg4s: var(--bg4s-hover);
-    --bg5: var(--bg5-hover); --bg5i: var(--bg5i-hover); --bg5b: var(--bg5b-hover); --bg5s: var(--bg5s-hover);
-    --bg6: var(--bg6-hover); --bg6i: var(--bg6i-hover); --bg6b: var(--bg6b-hover); --bg6s: var(--bg6s-hover);
-    --fc1: var(--fc1-hover); --fc2: var(--fc2-hover); --fc3: var(--fc3-hover);
-    --fc4: var(--fc4-hover); --fc5: var(--fc5-hover); --fc6: var(--fc6-hover);
-    --bc1: var(--bc1-hover); --bc2: var(--bc2-hover); --bc3: var(--bc3-hover);
-    --sc1: var(--sc1-hover); --sc2: var(--sc2-hover); --sc3: var(--sc3-hover);
-  }
-}
+
 /* active variables */
 .is-active :is([card-mode]:not([card-mode=""]), [class*="cm0"], [element-mode], [class*="em0"], [btn-mode], [class*="bm0"], [link-mode], [class*="lm0"]),
 .w--current :is([card-mode]:not([card-mode=""]), [class*="cm0"], [element-mode], [class*="em0"], [btn-mode], [class*="bm0"], [link-mode], [class*="lm0"]),
@@ -2673,15 +2651,7 @@ figure {
 .fvc.tc.fc1 {
   color: var(--white);
 }
-.travel {
-  z-index: 5;
-  width: 250px;
-  position: absolute;
-  top: -11vh;
-  bottom: auto;
-  left: 37vw;
-  right: auto;
-}
+
 .rot {
   transform: rotate(-4deg);
 }
@@ -2892,11 +2862,7 @@ figure {
 .rot-rev {
   transform: rotate(6deg);
 }
-.sec-5 {
-  z-index: 7;
-  width: 100vw;
-  position: relative;
-}
+
 .sec-5.tw {
   color: var(--white);
 }
@@ -2907,9 +2873,7 @@ figure {
   padding-bottom: 1rem;
   display: flex;
 }
-.sec-5._1 {
-  padding-bottom: 5rem;
-}
+
 ._6-6 {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -2931,9 +2895,7 @@ figure {
   left: 0%;
   right: auto;
 }
-.sec-5-i1 {
-  width: 20rem;
-}
+
 .half {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
@@ -3453,17 +3415,7 @@ figure {
   position: relative;
   top: -27px;
 }
-.white-rot {
-  width: 110%;
-  height: 120%;
-  background-color: var(--papaya-whip);
-  position: absolute;
-  top: -8%;
-  bottom: 0%;
-  left: -6%;
-  right: 0%;
-  transform: rotate(2deg);
-}
+
 .white-rot._2 {
   background-color: var(--sienna-2);
   top: -6%;
@@ -4087,33 +4039,7 @@ figure {
   width: 100vw;
   height: 100vh;
 }
-.sec-5-left {
-  z-index: 2;
-  width: 400px;
-  max-width: 60%;
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: auto;
-}
-.sec-5-left.multiply {
-  top: 0%;
-  bottom: auto;
-  left: -16%;
-  right: auto;
-}
-.sec-5-right {
-  width: 300px;
-  position: absolute;
-  top: auto;
-  bottom: -8%;
-  left: auto;
-  right: 0%;
-}
-.sec-5-right.multiply {
-  right: -3%;
-}
+
 .textarea {
   height: 400px;
 }
@@ -4313,11 +4239,7 @@ figure {
   .multiply.sec-h-3 {
     max-width: 300px;
   }
-  .multiply.sec-5-i1 {
-    position: relative;
-    top: 22px;
-    right: -10%;
-  }
+  
   .hero-slider {
     margin-left: auto;
     margin-right: auto;
@@ -4790,11 +4712,7 @@ figure {
   .multiply.sec-3-img-1 {
     width: 12rem;
   }
-  .multiply.sec-5-i1 {
-    width: 60vw;
-    top: 10px;
-    right: -4%;
-  }
+   
   .i.con {
     object-fit: cover;
   }
@@ -4892,15 +4810,11 @@ figure {
     flex-direction: column-reverse;
     align-items: center;
   }
-  .sec-5 {
-    padding-top: 1rem;
-  }
+
   .sec-5.tw._2 {
     padding-top: 3rem;
   }
-  .sec-5._1 {
-    padding-bottom: 5rem;
-  }
+
   .matt-img {
     top: -48px;
     left: 13%;
@@ -5190,7 +5104,7 @@ figure {
     padding-right: 24px;
   }
 }
-#w-node-_47034ffa-3d5c-f285-f176-a80e3188370b-570e3a99,
+/* #w-node-_47034ffa-3d5c-f285-f176-a80e3188370b-570e3a99, */
 #w-node-_75f3c98f-f27f-ff4f-6582-a18d392489e1-570e3a99,
 #w-node-_47034ffa-3d5c-f285-f176-a80e3188370b-87884607 {
   grid-area: span 1 / span 1 / span 1 / span 1;
