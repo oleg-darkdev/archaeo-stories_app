@@ -16,14 +16,14 @@
  * Released on: July 30, 2023
 */
 
-a { 
+a {
   color: inherit;
 }
-* { 
+* {
   border-color: var(--bc1);
   -webkit-text-stroke-color: var(--sc1);
 }
-*::selection { 
+*::selection {
   background: var(--selection-bg);
   color: var(--selection-fc);
 }
@@ -138,7 +138,7 @@ body,
     --bg4: var(--bg4-hover); --bg4i: var(--bg4i-hover); --bg4b: var(--bg4b-hover); --bg4s: var(--bg4s-hover);
     --bg5: var(--bg5-hover); --bg5i: var(--bg5i-hover); --bg5b: var(--bg5b-hover); --bg5s: var(--bg5s-hover);
     --bg6: var(--bg6-hover); --bg6i: var(--bg6i-hover); --bg6b: var(--bg6b-hover); --bg6s: var(--bg6s-hover);
-    --fc1: var(--fc1-hover); --fc2: var(--fc2-hover); --fc3: var(--fc3-hover); 
+    --fc1: var(--fc1-hover); --fc2: var(--fc2-hover); --fc3: var(--fc3-hover);
     --fc4: var(--fc4-hover); --fc5: var(--fc5-hover); --fc6: var(--fc6-hover);
     --bc1: var(--bc1-hover); --bc2: var(--bc2-hover); --bc3: var(--bc3-hover);
     --sc1: var(--sc1-hover); --sc2: var(--sc2-hover); --sc3: var(--sc3-hover);
@@ -156,7 +156,7 @@ body,
   --bg4: var(--bg4-active); --bg4i: var(--bg4i-active); --bg4b: var(--bg4b-active); --bg4s: var(--bg4s-active);
   --bg5: var(--bg5-active); --bg5i: var(--bg5i-active); --bg5b: var(--bg5b-active); --bg5s: var(--bg5s-active);
   --bg6: var(--bg6-active); --bg6i: var(--bg6i-active); --bg6b: var(--bg6b-active); --bg6s: var(--bg6s-active);
-  --fc1: var(--fc1-active); --fc2: var(--fc2-active); --fc3: var(--fc3-active); 
+  --fc1: var(--fc1-active); --fc2: var(--fc2-active); --fc3: var(--fc3-active);
   --fc4: var(--fc4-active); --fc5: var(--fc5-active); --fc6: var(--fc6-active);
   --bc1: var(--bc1-active); --bc2: var(--bc2-active); --bc3: var(--bc3-active);
   --sc1: var(--sc1-active); --sc2: var(--sc2-active); --sc3: var(--sc3-active);
@@ -164,7 +164,7 @@ body,
 
 
 
-/* 
+/*
  */
 
 
@@ -2737,12 +2737,11 @@ figure {
   top: -66px;
 }
 .wrapper {
-  width: 95%;
+  width: 100%;
   max-width: 1500px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 3rem;
-  padding-bottom: 3rem;
   position: relative;
 }
 .wrapper.slide {
@@ -2796,27 +2795,7 @@ figure {
   background-position: 50%;
   background-size: cover;
 }
-.slide-sub.titan {
-  background-color: #023936;
-}
-.slide-sub.yb {
-  background-color: #ee904b;
-}
-.slide-sub.ab {
-  background-color: #118a83;
-}
-.slide-sub.fb {
-  background-color: #cb3f33;
-}
-.slide-sub.tbb {
-  background-color: #791702;
-}
-.slide-sub.wtay {
-  background-color: #e3744d;
-}
-.slide-sub.fcf {
-  background-color: #ff5143;
-}
+
 .slide--link {
   width: 100%;
   height: 100%;
@@ -2979,8 +2958,6 @@ figure {
 .sec-5 {
   z-index: 7;
   width: 100vw;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   position: relative;
 }
 .sec-5.tw {
@@ -3046,7 +3023,7 @@ figure {
       rgba(66, 45, 27, 0.23),
       rgba(66, 45, 27, 0.23)
     ),
-    url(../images/64fb43ed5d7c33a1dbc2aee0_footer-bg.webp);
+    url(../images/footer-bg.webp);
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -3130,7 +3107,7 @@ figure {
 .sec-4-bg {
   width: 100%;
   height: 100%;
-  background-image: url(../images/64fb2bd3ecc183a3dd283adf_new.png);
+  background-image: url(../images/stone-map.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3144,6 +3121,7 @@ figure {
   height: 85%;
   margin-top: -35px;
   left: -15vw;
+  /* margin-bottom: 200px; */
 }
 .sec-4-i2 {
   z-index: 3;
@@ -3205,7 +3183,7 @@ figure {
 .mapp {
   width: 100vw;
   height: 96%;
-  background-image: url(../images/6503552b672d1692e64c1112_map-v7.webp);
+  background-image: url(../images/banner-map.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3280,7 +3258,7 @@ figure {
   width: 45vw;
   height: 110vh;
   object-fit: contain;
-  background-image: url(../images/6500b3a0e62d0895ad38afe7_review-map.webp);
+  background-image: url(../images/midle-map.svg);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -5233,7 +5211,7 @@ figure {
   .nugget {
     width: 80%;
     height: 300px;
-    background-image: url(../images/65020ff6e4fae0ddc09006eb_image%201089.webp);
+    background-image: url(../images/stone.webp);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5249,7 +5227,7 @@ figure {
   .mob-map-1 {
     width: 50vw;
     height: 100vh;
-    background-image: url(../images/group-1.webp);
+    background-image: url(../images/big-map.svg));
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5264,7 +5242,7 @@ figure {
   .mob-map-2 {
     width: 58vw;
     height: 130vh;
-    background-image: url(../images/group-2.webp);
+    background-image: url(../images/big-map.svg));
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5278,7 +5256,7 @@ figure {
   .mob-map {
     width: 110vw;
     height: 165vh;
-    background-image: url(../images/6500ae12587c0a4313612aa8_map-v4.webp);
+    background-image: url(../images/big-map.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain;
