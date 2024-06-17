@@ -592,15 +592,15 @@
 
       <Header>
         <ul class="items-stretch hidden space-x-3 md:flex" slot='left-links'>
-          <HeaderLink link='#'/>
-          <HeaderLink link='#'/>
-          <HeaderLink link='#'/>
+          <HeaderLink link='#about' title='About'/>
+          <HeaderLink link='#features' title='Features'/>
+          <!-- <HeaderLink link='#' title='About'/> -->
         </ul>
 
         <ul class="items-stretch hidden space-x-3 md:flex" slot='right-links'>
-          <HeaderLink link='#'/>
-          <HeaderLink link='#'/>
-          <HeaderLink link='#'/>
+          <HeaderLink link='/app' title='App'/>
+          <HeaderLink link='#quiz' title='Quiz'/>
+          <HeaderLink link='#contact' title='Contact'/>
         </ul>
 
       </Header>
@@ -611,6 +611,8 @@
         <Slider />
 
         <div class="sec-3">
+
+        <a name="about"></a>
           <div class="wrapper fvc">
             <div class="rel">
               <div class="pl aa">
@@ -627,13 +629,15 @@
             <!-- <img src="images/64fb5dc0eafa3fed194074e1_image_1042-removebg-preview.webp" loading="lazy" alt="" class="sec-3-img-2 multiply"> -->
           </div>
         </div>
-        
-        
+
+
         <div class="sec-4">
           <div class="sec-4-bg multiply "></div>
           <div class="wrapper full mob">
               <About />
+
               <Contact />
+
               <Quiz />
           </div>
         </div>

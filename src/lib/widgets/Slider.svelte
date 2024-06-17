@@ -16,10 +16,13 @@
               </div>
               <div class="web-middle"></div>
             </div> -->
-		<div class="sub-slider w-slider">
-			<div class="w-slider-mask">
-				<div class="w-slide">
-					<div class="slide-sub">
+
+    <a name="features"></a>
+
+		<div class="sub-slider w-slider  ">
+			<div class="w-slider-mask  ">
+				<div class="w-slide  ">
+					<div class="slide-sub  h-[90vh]">
 						<div class="slide-t-holder bg-[#793610]">
 							<div class="t-hold-sub">
 								<div>

@@ -1,14 +1,14 @@
 
-<header class="p-4 ">
+<header style='z-index: 100;' class=" p-4">
 	<div class="container flex justify-between h-16 mx-auto md:justify-center md:space-x-8">
-		
+
     <slot name='left-links' />
-	
-		<a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
+
+		<a rel="noopener noreferrer" href="/" aria-label="Back to homepage" class="z-20 mx-auto flex items-center p-2">
       <img src="images/header-logo.svg" loading="lazy" sizes="(max-width: 479px) 100px, (max-width: 991px) 150px, 250px"  alt="Archeo stories logo" class="travel">
 
 		</a>
-    
+
 		<slot name='right-links' />
 
 		<button title="Button" type="button" class="p-4 md:hidden">

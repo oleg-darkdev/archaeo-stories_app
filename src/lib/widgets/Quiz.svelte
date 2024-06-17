@@ -10,6 +10,10 @@
 						industries for previewing layouts and visual mockups.
 					</p>
 				</div>
+
+        <a name="quiz"></a>
+
+
 				<a href="/quiz" target="_blank" class="yellow w-inline-block btn">
 					<div>START THE QUIZ</div>
 				</a>

@@ -16,19 +16,23 @@
                 </div>
             </div>
             <div class="w-slider-nav w-round"></div>
+
+
         </div>
         <div class="sec-4-t1 rot">
             <div class="ch-smal">
             <h3 class="f2 uppercase">Lorem ipsum dolor sit amet consectetur </h3>
             </div>
         </div>
-        </div>
+
+
+      </div>
         <div class="slide-b-wrap _2">
         <div class="test-slider _2 w-slider" >
             <div class="w-slider-mask">
             <div class="w-slide">
                 <div class="test-inner">
-                <!-- <img sizes="(max-width: 479px) 80vw, 297.8125px"  alt="" src="images/650473e15204616247ec5eb8_Frame%20132.webp" loading="lazy" class="test--i"> -->
+                <img sizes="(max-width: 479px) 80vw, 297.8125px"  alt="" src="images/paleontology.png" loading="lazy" class="test--i">
                 <p class="p _80">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>
@@ -39,7 +43,9 @@
                 </div>
             </div>
         </div>
+
     </div>
+
     </div>
 
     <div class="nugget multiply"></div>

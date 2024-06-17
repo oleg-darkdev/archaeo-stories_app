@@ -7,6 +7,10 @@
         <p class="p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries. #BeyondTheYukon</p>
 
         </div>
+
+        <a name="contact"></a>
+
+
         <!-- id="w-node-_47034ffa-3d5c-f285-f176-a80e3188370b-570e3a99"  -->
         <div class="rel fvc">
         <!-- oleg-archeo.JPG -->
@@ -16,7 +20,7 @@
     </div>
     </div>
 </div>
-        
+
 
 <style>
 
@@ -34,7 +38,7 @@
 }
 
 @media screen and (max-width: 479px) {
-  
+
   .sec-5 {
     padding-top: 1rem;
   }
