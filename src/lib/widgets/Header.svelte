@@ -5,8 +5,7 @@
     <slot name='left-links' />
 
 		<a rel="noopener noreferrer" href="/" aria-label="Back to homepage" class="z-20 mx-auto flex items-center p-2">
-      <img src="images/header-logo.svg" loading="lazy" sizes="(max-width: 479px) 100px, (max-width: 991px) 150px, 250px"  alt="Archeo stories logo" class="travel">
-
+      <img src="images/header-logo.svg" loading="lazy"   alt="Archeo stories logo" class="travel">
 		</a>
 
 		<slot name='right-links' />
@@ -21,10 +20,25 @@
 
 
 <style>
-.travel {
-  z-index: 5;
-  width: 200px;
-  bottom: auto;
-  right: auto;
+
+
+@media screen and (min-width: 767px) {
+  .travel {
+    z-index: 5;
+    width: 200px;
+    bottom: auto;
+    right: auto;
+  }
 }
+
+
+@media screen and (max-width: 767px) {
+  .travel {
+    z-index: 5;
+    width: 160px;
+    bottom: auto;
+    right: auto;
+  }
+}
+
 </style>

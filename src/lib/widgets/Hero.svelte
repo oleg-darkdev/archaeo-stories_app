@@ -110,7 +110,7 @@
 
 @media screen and (max-width: 991px) {
   .mapp {
-    left: -14%;
+    left: -20%;
      width: 100vw;
   height: 96%;
   background-image: url(/images/banner-map.svg);
@@ -171,7 +171,8 @@
   position: absolute;
   top: 0%;
   bottom: 0%;
-  right: -52%;}
+  right: -52%;
+}
 
 .yk-map.multiply {
     display: none;
