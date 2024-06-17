@@ -3,7 +3,7 @@
     <div class="wrapper padding">
     <div class="half py-6">
         <div class="gd1--gp2 left">
-        <h1 class="font-veneer">Contact with the author</h1>
+        <h1 class="font-nerkoOne uppercase">Contact with the author</h1>
         <p class="p">Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries. #BeyondTheYukon</p>
 
         </div>

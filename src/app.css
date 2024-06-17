@@ -7,6 +7,34 @@ p {
   line-height: 1.45;
 }
 
+.btn {
+  z-index: 20;
+  background-color: var(--black);
+  color: var(--white);
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 200px;
+  padding: 0.3rem 1rem;
+  /* font-family: Work Sans, sans-serif; */
+  /* font-weight: 600; */
+  transition: background-color 0.35s;
+  position: relative;
+  overflow: hidden;
+}
+.btn:hover {
+  background-color: var(--white);
+  opacity: 1;
+  color: var(--black);
+}
+
+.btn.yellow {
+  color: #000;
+  background-color: #f7d454;
+}
+.btn.yellow:hover {
+  background-color: var(--white);
+}
+
 :root {
   --sienna: #b1560e;
   --white: white;
@@ -16,13 +44,19 @@ p {
   --sienna-2: #92633a;
 }
 
-.font-nanumPen {
-  font-family: NanumPenScript, sans-serif;
+@font-face {
+  font-family: "nerkoOne";
+  src: url("/fonts/nerkoOne.ttf")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
+
 @font-face {
-  font-family: "NanumPenScript";
-  src: url("/fonts/NanumPenScript.ttf")
+  font-family: "nanumPenScript";
+  src: url("/fonts/nanumPenScript.ttf")
     format("woff");
   font-weight: 400;
   font-style: normal;
@@ -63,6 +97,16 @@ p {
 .font-veneer {
   font-family: 'Veneer', sans-serif;
 }
+
+.font-nanumPen {
+  font-family: nanumPenScript, sans-serif;
+}
+
+.font-nerkoOne {
+  font-family: nerkoOne, sans-serif;
+}
+
+
 
 /**
  * Lumos Color 1.0.4
@@ -2722,36 +2766,7 @@ figure {
 ._100 {
   width: 100%;
 }
-.btn {
-  z-index: 20;
-  background-color: var(--black);
-  color: var(--white);
-  text-align: center;
-  text-transform: uppercase;
-  border-radius: 200px;
-  padding: 1rem 2rem;
-  font-family: Work Sans, sans-serif;
-  font-weight: 600;
-  transition: background-color 0.35s;
-  position: relative;
-  overflow: hidden;
-}
-.btn:hover {
-  background-color: var(--white);
-  opacity: 1;
-  color: var(--black);
-}
-.btn.nav {
-  padding: 0.85rem 1.5rem;
-  font-size: 0.8rem;
-}
-.btn.yellow {
-  color: #000;
-  background-color: #f7d454;
-}
-.btn.yellow:hover {
-  background-color: var(--white);
-}
+
 .btn.calendly {
   z-index: 20;
   background-color: var(--black);

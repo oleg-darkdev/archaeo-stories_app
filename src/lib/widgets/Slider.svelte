@@ -75,9 +75,9 @@
 					<!-- WANNA <br> -->
 					<h2>SEE <br />MORE?</h2>
 				</div>
-				<div class="pt2">
-					<a href="https://44games.vercel.app/" target="_blank" class="w-inline-block btn">
-						<div>More of our educational games</div>
+				<div class="mt-8">
+					<a href="https://44games.vercel.app/" target="_blank" class="btn">
+						<div>More of our educational boardgames</div>
 					</a>
 				</div>
 			</div>

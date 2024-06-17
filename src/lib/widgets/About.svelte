@@ -6,7 +6,7 @@
             <div class="w-slide">
                 <div class="test-inner">
                 <!-- <img sizes="(max-width: 479px) 80vw, 297.8125px" srcset="images/65051584a148878dfed621fb_Frame%20128-p-500.webp 500w, images/65051584a148878dfed621fb_Frame%20128-p-800.webp 800w, images/65051584a148878dfed621fb_Frame%20128-p-1080.webp 1080w, images/65051584a148878dfed621fb_Frame%20128-p-1600.webp 1600w, images/65051584a148878dfed621fb_Frame%20128.webp 1866w" alt="" src="images/65051584a148878dfed621fb_Frame%20128.webp" loading="lazy" class="test--i"> -->
-                <p class="p _80">
+                <p class="p _80 ">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                     </p>
                     <p class="p _80">

@@ -1,4 +1,4 @@
-<div class="sec-2 mb-16">
+<div class="sec-2 mb-20">
 	<div class="mob-map"></div>
 	<div class="mapp"></div>
 	<div class="sec-2-main">
@@ -9,7 +9,7 @@
 			<h1 class="font-veneer">we're on an <br /> archaeological <br /> excavation. </h1>
 		</div>
 		<div class="text-block2">
-			<h4 class="uppercase font-nanumPen">An educational board game that introduces players to the fascinating world of archaeology.</h4>
+			<h4 class="uppercase font-nerkoOne">An educational board game that introduces players to the fascinating world of archaeology.</h4>
 		</div>
 		</div>
 		<div class="_1--right">
@@ -25,7 +25,7 @@
 		<div class="left _2">
 		<div class="right-align ">
 			<div class="pt-10 ">
-				<p class="">The game integrates traditional board game with modern digital technologies, creating a fun and educational experience for players of all ages.</p>
+				<p class="font-nanumPen text-3xl">The game integrates traditional board game with modern digital technologies, creating a fun and educational experience for players of all ages.</p>
 			</div>
 			<!-- <img src="images/mountains-river.webp" loading="lazy" alt="" class="mob-img"> -->
 			<div>
