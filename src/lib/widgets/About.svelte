@@ -21,7 +21,7 @@
         </div>
         <div class="sec-4-t1 rot">
             <div class="ch-smal">
-            <h3 class="f2 uppercase">Lorem ipsum dolor sit amet consectetur </h3>
+            <h3 class="font-nanumPen uppercase">Lorem ipsum dolor sit amet consectetur </h3>
             </div>
         </div>
 
@@ -53,7 +53,7 @@
     <div class="rel">
         <div class="fvc tc fc1">
         <div class="rot-rev">
-            <h2 class="f2 uppercase pb2">Lorem ipsum  <br>dolor sit amet <br>, consectetur  <br>adipiscing elit, sed. </h2>
+            <h2 class="font-nanumPen uppercase pb2">Lorem ipsum  <br>dolor sit amet <br>, consectetur  <br>adipiscing elit, sed. </h2>
         </div>
         </div>
     </div>

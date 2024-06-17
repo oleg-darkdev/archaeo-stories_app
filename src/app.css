@@ -16,6 +16,19 @@ p {
   --sienna-2: #92633a;
 }
 
+.font-nanumPen {
+  font-family: NanumPenScript, sans-serif;
+}
+
+@font-face {
+  font-family: "NanumPenScript";
+  src: url("/fonts/NanumPenScript.ttf")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "Satoshi";
   src: url("/fonts/satoshi-Regular.woff")
@@ -2486,9 +2499,7 @@ figure {
 .f1.tt2.fs0._1 {
   position: static;
 }
-.f2 {
-  font-family: Nanum Pen Script, sans-serif;
-}
+
 .f2.tt2.lra {
   text-align: center;
   margin-left: auto;
@@ -3061,25 +3072,6 @@ figure {
   right: 0%;
 }
 
-.mapp {
-  width: 100vw;
-  height: 96%;
-  background-image: url(/images/banner-map.svg);
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  flex-direction: column;
-  align-items: center;
-  margin-top: -73px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: -6%;
-  right: 0%;
-}
 .last-bottle-img {
   width: 100%;
 }
@@ -4218,7 +4210,7 @@ figure {
   .multiply.sec-h-3 {
     max-width: 300px;
   }
-  
+
   .hero-slider {
     margin-left: auto;
     margin-right: auto;
@@ -4512,11 +4504,7 @@ figure {
     margin-top: 0;
     padding-top: 25px;
   }
-  .mapp {
-    height: 100%;
-    left: 0%;
-    right: -52%;
-  }
+
   .last {
     width: 15rem;
     display: none;
@@ -4689,7 +4677,7 @@ figure {
   .multiply.sec-3-img-1 {
     width: 12rem;
   }
-   
+
   .i.con {
     object-fit: cover;
   }
@@ -4825,10 +4813,7 @@ figure {
     top: -30vh;
     right: auto;
   }
-  .mapp {
-    width: 120vw;
-    display: none;
-  }
+
   .sec-2-last {
     flex-direction: column-reverse;
     align-items: center;
