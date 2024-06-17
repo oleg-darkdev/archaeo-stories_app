@@ -110,7 +110,25 @@
 
 @media screen and (max-width: 991px) {
   .mapp {
-    left: 5%;
+    left: -14%;
+     width: 100vw;
+  height: 96%;
+  background-image: url(/images/banner-map.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  /* left: -8%; */
+  right: 0%;
+
   }
   .man-wrap {
     top: 20px;
@@ -136,6 +154,25 @@
     display: none;
   }
 
+
+.mapp {
+   height: 100%;
+    left: 0%;
+  background-image: url(/images/banner-map.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  right: -52%;}
+
 .yk-map.multiply {
     display: none;
     right: 106px;
@@ -150,5 +187,50 @@
     .right-align.mob {
     width: 64vw;
   }
+   .mapp {
+    width: 120vw;
+    display: none;
+  }
+
+   .mob-map {
+    width: 110vw;
+    height: 165vh;
+    background-image: url(/images/big-map.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: block;
+    position: absolute;
+    top: -20vh;
+    bottom: 0%;
+    left: auto;
+    right: -45vw;
+    transform: rotate(-9deg);
+  }
 }
+
+
+@media screen and (min-width: 991px) {
+
+.mapp {
+  width: 100vw;
+  height: 96%;
+  background-image: url(/images/banner-map.svg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: -8%;
+  right: 0%;
+}
+}
+
 </style>
