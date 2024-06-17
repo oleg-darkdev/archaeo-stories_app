@@ -46,8 +46,7 @@ p {
 
 @font-face {
   font-family: "nerkoOne";
-  src: url("/fonts/nerkoOne.ttf")
-    format("ttf");
+  src: url("/fonts/nerkoOne.ttf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -56,8 +55,7 @@ p {
 
 @font-face {
   font-family: "nanumPenScript";
-  src: url("/fonts/nanumPenScript.ttf")
-    format("ttf");
+  src: url("/fonts/nanumPenScript.ttf");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
