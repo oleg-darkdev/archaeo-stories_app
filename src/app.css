@@ -63,13 +63,7 @@ p {
 }
 
 
-@font-face {
-  font-family: "nanumPenScript";
-  src: url("/fonts/nanumPenScript.ttf");
-  font-weight: 400;
-  font-style: normal;
-  /* font-display: swap; */
-}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
 
 @font-face {
   font-family: "Satoshi";
@@ -107,7 +101,9 @@ p {
 }
 
 .font-nanumPen {
-  font-family: 'nanumPenScript', sans-serif;
+    font-family: "Nanum Pen Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .font-nerkoOne {
