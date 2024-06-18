@@ -7,7 +7,12 @@ const items = [
     subTitle: 'Lorem tagline',
     title: 'Educational boardgame.',
     img: '/images/photo_1.jpg',
-    shortDesc: [`Our educational board game, enhanced by an interactive web application, offers you to become a real archaeologist. Explore ancient grounds, unearth artifacts, and explore historical discoveries!`, `The educational boardgame is designed in collaboration with archaeologists and educators to provide in-depth knowledge and correct learning process.`],
+    link: {
+      title: '',
+      href: '',      
+      hidden: true
+    },
+    shortDesc: [`Our educational board game, enhanced by an interactive web application, offers you to become a real archaeologist. Explore ancient grounds, unearth artifacts, and explore historical discoveries!`],
     features: [
       {
         title: 'Materialistic Scenarios.',
@@ -33,6 +38,11 @@ const items = [
     subTitle: 'Lorem tagline',
     title: 'Web application.',
     img: '/images/photo_2.jpg',
+    link: {
+      title: 'Go to APP',
+      href: '/app',      
+      hidden: false
+    },
     shortDesc: [`Use the full capabilities of our web application for additional data and analysis of archaeological discoveries.`],
     features: [
       {
@@ -61,6 +71,11 @@ const items = [
     subTitle: 'Lorem tagline',
     title: 'Educational quiz.',
     img: '/images/photo_3.jpg',
+    link: {
+      title: 'Go to QUIZ',
+      href: '/quiz',
+      hidden: false
+    },
     shortDesc: [`Answer the questions to learn more about the findings and their significance. Each correct answer will earn you points and bring you a bit further towards the title of a true archaeologist!`],
     features: [
       {
@@ -79,15 +94,6 @@ const items = [
         title: 'Problem-Oriented Learning',
         desc: 'Challenge yourself with real archaeological problems and challenges by solving them with the help of quiz questions. This will help you better understand the process of excavating and analyzing finds.'
       },
-      {
-        title: '',
-        desc: ''
-      },
-      {
-        title: '',
-        desc: ''
-      },
-
     ],
     align: 0
   },
@@ -101,7 +107,7 @@ const items = [
     <!-- <h1 class="mb-8 text-4xl font-nerkoOne leading-none tracking-tighter text-neutral-100 md:text-7xl lg:text-7xl text-center">Features</h1> -->
 
     <div class="wrapper   w-full max-h-[70vh] z-20 no-scrollbar overflow-y-scroll">
-      {#each items as {subTitle, title, img, shortDesc, features, align}}
+      {#each items as {subTitle, title, img, shortDesc, features, align, link}}
         <div class="flex mx-auto mb-20 flex-wrap justify-center content-center {align ? 'flex-row-reverse': ''} items-center">
       <div class="w-full  lg:max-w-lg lg:w-1/2 rounded-sm">
             <div class="h-full">
@@ -114,6 +120,12 @@ const items = [
         {#each shortDesc as desc}
         <p class="mb-2 leading-relaxed max-w-2xl  text-left  font-satoshi text-neutral-100">{desc}</p>
         {/each}
+
+        <div class:hidden={link.hidden} class="mt-8">
+					<a href="{link.link}" target="_blank" class="yellow font-nanumPen text-2xl btn">
+						<div>{link.title}</div>
+					</a>
+				</div>
         <div class="flex-col mt-2 max-w-7xl sm:flex">
           <div class="prose prose-md">
             <ul>
@@ -139,7 +151,6 @@ const items = [
 		<div class="w-full see-more pt-20 pb-20">
 			<div>
 				<div class="font-veneer text-[#92633a]">
-					<!-- WANNA <br> -->
 					<h2>SEE <br />MORE?</h2>
 				</div>
 				<div class="mt-8">

@@ -622,7 +622,7 @@
               </div>
               <div class="_100 pt4">
                 <div class="_80vw fc1">
-                  <h1 class="font-nerkoOne max-w-5xl uppercase text-center">Educational boardgame, enhanced by an interactive web application</h1>
+                  <h1 class="font-nerkoOne max-w-4xl uppercase text-center">Educational project based on historical researches.</h1>
                 </div>
               </div>
             </div>
