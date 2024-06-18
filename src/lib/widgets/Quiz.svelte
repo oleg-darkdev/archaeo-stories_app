@@ -25,7 +25,7 @@
 	<!-- images/64f7a0d7bdbef7009ade0be3_image%20957.webp -->
 
 	<!-- <img src="images/archaeology_metal.png" loading="lazy" alt="" class="sec-5-left multiply" /> -->
-	<img src="images/paleontology.png" loading="lazy" alt="" class="sec-5-right multiply" />
+	<!-- <img src="images/paleontology.png" loading="lazy" alt="" class="sec-5-right multiply" /> -->
 </div>
 
 
