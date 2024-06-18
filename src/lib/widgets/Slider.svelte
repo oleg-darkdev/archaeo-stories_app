@@ -1,73 +1,140 @@
+
 <script>
+	
+const items = [
+  {
+    id: 0,
+    subTitle: 'Lorem tagline',
+    title: 'Educational boardgame.',
+    img: '/images/photo_1.jpg',
+    shortDesc: [`Our educational board game, enhanced by an interactive web application, offers you to become a real archaeologist. Explore ancient grounds, unearth artifacts, and explore historical discoveries!`, `The educational boardgame is designed in collaboration with archaeologists and educators to provide in-depth knowledge and correct learning process.`],
+    features: [
+      {
+        title: 'Materialistic Scenarios.',
+        desc: 'Game scenarios are based on real archaeological excavations, which makes the game not only interesting but also educational. Learn about authentic archaeological discoveries made in Belarus and Poland.'
+      },
+      {
+        title: 'Educational Value',
+        desc: 'The boardgame has been developed together with expert archaeologists, which guarantees a high educational value. A great way for children and adults to learn more about ancient eras and archaeology.'
+      },
+      {
+        title: 'Critical Thinking Growth',
+        desc: 'Game problems solving and excavation requires logic and analysis, which promotes critical thinking and problem solving skills.'
+      },
+      {
+        title: 'Visual Learning',
+        desc: 'Real- world illustrations of archaeological artifacts and illustrations make the learning process visually rich and more memorable.'
+      },
+    ],
+    align: 0
+  },
+  {
+    id: 1,
+    subTitle: 'Lorem tagline',
+    title: 'Web application.',
+    img: '/images/photo_2.jpg',
+    shortDesc: [`Use the full capabilities of our web application for additional data and analysis of archaeological discoveries.`],
+    features: [
+      {
+        title: 'Renewable Scenarios.',
+        desc: 'Regular updates to scenarios and content ensure that the game is always interesting. New archaeological finds and discoveries will always be at your fingertips.'
+      },
+      {
+        title: 'Extensive knowledge base.',
+        desc: 'Access an extensive database with additional information about the artifacts, their historical context and historical significance. Deepen your knowledge and expand your horizons.'
+      },
+      {
+        title: 'Personalized Learning.',
+        desc: 'The web app adapts to your interests and knowledge level, offering personalized assignments and learning recommendations.'
+      },
+      {
+        title: 'Video Lessons and Workshops.',
+        desc: `
+          Access videos and webinars featuring real archaeologists and historians. Learn more about excavation techniques and the history of ancient civilizations directly from the experts.`
+      },
 
+    ],
+    align: 1
+  },
+{
+    id: 2,
+    subTitle: 'Lorem tagline',
+    title: 'Educational quiz.',
+    img: '/images/photo_3.jpg',
+    shortDesc: [`Answer the questions to learn more about the findings and their significance. Each correct answer will earn you points and bring you a bit further towards the title of a true archaeologist!`],
+    features: [
+      {
+        title: 'In-depth Learning',
+        desc: 'The quiz offers additional questions and assignments that expand your knowledge of archaeology. Learn more about ancient civilizations, excavations, and artifacts.'
+      },
+      {
+        title: 'Expert Questions',
+        desc: 'Quiz questions are designed by archaeologists and historiсans to ensure the accuracy and educational value of each assignment.'
+      },
+      {
+        title: 'Easy Access',
+        desc: 'Quiz is available on all devices and platforms, allowing you to learn anytime, anywhere. Enjoy the quiz at home, on the road, or on an archaeological excavation.'
+      },
+      {
+        title: 'Problem-Oriented Learning',
+        desc: 'Challenge yourself with real archaeological problems and challenges by solving them with the help of quiz questions. This will help you better understand the process of excavating and analyzing finds.'
+      },
+      {
+        title: '',
+        desc: ''
+      },
+      {
+        title: '',
+        desc: ''
+      },
 
+    ],
+    align: 0
+  },
+
+]
 </script>
 
 
-<div class="sec-2-2">
-	<div class="wrapper slide">
-		<!-- <div class="rel">
-              <div class="slide-header _3">
-                <div class="web-block">
-                  <div>
-                    <h2 class="f4">Lorem impsum</h2>
-                  </div>
-                </div>
-              </div>
-              <div class="web-middle"></div>
-            </div> -->
+<section class='sec-2-2 '>
+  <div class="px-4 py-12 mx-auto w-full sm:px-6 md:px-12 py-10 bg-[#793610]">
+    <!-- <h1 class="mb-8 text-4xl font-nerkoOne leading-none tracking-tighter text-neutral-100 md:text-7xl lg:text-7xl text-center">Features</h1> -->
 
-    <a name="features"></a>
+    <div class="wrapper   w-full max-h-[70vh] z-20 no-scrollbar overflow-y-scroll">
+      {#each items as {subTitle, title, img, shortDesc, features, align}}
+        <div class="flex mx-auto mb-20 flex-wrap justify-center content-center {align ? 'flex-row-reverse': ''} items-center">
+      <div class="w-full  lg:max-w-lg lg:w-1/2 rounded-sm">
+            <div class="h-full">
+              <img class=" mx-auto rounded-sm h-full" alt="hero" src="{img}">
+            </div>
+      </div>
+      <div class="flex flex-col items-start mt-12 mb-16 text-left  lg:flex-grow lg:w-1/2 lg:pl-6 xl:pl-24 md:mb-0 xl:mt-0">
+        <!-- <span class="mb-8 text-xs font-satoshi-bold tracking-widest text-neutral-100 uppercase">{subTitle}  </span> -->
+        <h1 class="mb-8 text-4xl font-nerkoOne leading-none tracking-tighter text-neutral-100 md:text-7xl lg:text-5xl">{title}</h1>
+        {#each shortDesc as desc}
+        <p class="mb-2 leading-relaxed max-w-2xl  text-left  font-satoshi text-neutral-100">{desc}</p>
+        {/each}
+        <div class="flex-col mt-2 max-w-7xl sm:flex">
+          <div class="prose prose-md">
+            <ul>
+              {#each features as {title, desc}}
+              <li class="text-neutral-100 ">
+                <h3 class="font-satoshi-bold ">{title}</h3>
+                <p class="font-satoshi">{desc}</p>
+              </li>
+              {/each}
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+      {/each}
+    </div>
+  </div>
 
-		<div class="sub-slider w-slider  ">
-			<div class="w-slider-mask  ">
-				<div class="w-slide  ">
-					<div class="slide-sub  h-[90vh]">
-						<div class="slide-t-holder bg-[#793610]">
-							<div class="t-hold-sub">
-								<div>
-									<div class="">FOOD &amp; BEVERAGE</div>
-								</div>
-								<div>
-									<h6 class="">
-										Lorem Ipsum is simply dummy text of the printing and typesetting industr
-									</h6>
-								</div>
-								<div>
-									<div class="">Lorem Ipsum is simply</div>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industr</p>
-								</div>
-								<div>
-									<div class="">Lorem Ipsum is simply</div>
-									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industr</p>
-								</div>
-							</div>
-							<div>
-								<div class="tagline _2">Lorem Ipsum is simply</div>
-							</div>
-						</div>
-						<div class="slide-i-holder">
-							<img
-								sizes="(max-width: 479px) 100vw, (max-width: 767px) 80vw, (max-width: 991px) 40vw, 45vw"
-								alt=""
-								src=""
-								loading="lazy"
-								class="i"
-							/>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="sub-arrow left w-slider-arrow-left">
-				<div class="text-black w-icon-slider-left" />
-			</div>
-			<div class="sub-arrow right w-slider-arrow-right">
-				<div class="text-black w-icon-slider-right" />
-			</div>
-			<div class="h w-slider-nav" />
-		</div>
-	</div>
-	<div class="wrapper">
+  <a name="features"></a>
+
+  <div class="wrapper">
 		<div class="sec-2--li" />
 		<div class="w-full see-more pt-20 pb-20">
 			<div>
@@ -91,14 +158,25 @@
               <div class="horse-img multiply"></div>
             </div> -->
 	</div>
-</div>
+</section>
+
 
 
 <style>
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
 .see-more {
   padding-left: 100px;
 }
-
+/*
   .w-icon-slider-right:before {
   content: "";
 }
@@ -118,8 +196,8 @@
   line-height: 1;
   font-family: webflow-icons !important;
 }
-
-
+ */
+/*
 .w-slider-arrow-left,
 .w-slider-arrow-right {
   width: 80px;
@@ -144,22 +222,22 @@
 .w-slider-arrow-left [class*="\ w-icon-"],
 .w-slider-arrow-right [class*="\ w-icon-"] {
   position: absolute;
-}
+} */
 
 
 .slide-sub {
   width: 90%;
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+  /* grid-column-gap: 0px;
+  grid-row-gap: 0px; */
   background-color: var(--black);
   color: var(--white);
-  grid-template-rows: auto;
+  /* grid-template-rows: auto;
   grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
+  grid-auto-columns: 1fr; */
   align-items: stretch;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
+  /* display: grid; */
   position: relative;
 }
 
