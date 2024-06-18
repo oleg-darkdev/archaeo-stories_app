@@ -24,9 +24,9 @@
 		</div>
 		<div class="left _2">
 		<div class="right-align ">
-			<div class="pt-10 ">
+			<!-- <div class="pt-10 ">
 				<p class="font-nanumPen text-3xl">The game integrates traditional board game with modern digital technologies, creating a fun and educational experience for players of all ages.</p>
-			</div>
+			</div> -->
 			<!-- <img src="images/mountains-river.webp" loading="lazy" alt="" class="mob-img"> -->
 			<div>
 			<!-- <h4 class="f2 uppercase lra">Miles <br>Canyon </h4> -->

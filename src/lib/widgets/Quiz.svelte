@@ -5,10 +5,10 @@
 			<div class="fvc tc">
 				<h2 class="font-nerkoOne uppercase">Historical quiz.</h2>
 				<div class="pt2 pb2">
-					<p class="font-nanumPen  text-2xl mb-6 max-lg ">
+					<p class="font-satoshi  text-2xl mb-6 max-lg ">
 						Complete an archaeological dig quiz and learn amazing facts about the worldwide history.
 					</p>
-					<p class="font-nanumPen text-2xl max-xl ">
+					<p class="font-satoshi text-2xl max-xl ">
             Answer the questions to learn more about the findings and their significance. Each correct answer will earn you points and bring you a bit further towards the title of a true archaeologist!
 					</p>
 				</div>
