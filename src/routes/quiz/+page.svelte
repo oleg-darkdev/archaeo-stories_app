@@ -15,7 +15,7 @@
   </ul>
 
   <ul class="items-stretch hidden space-x-3 md:flex" slot='right-links'>
-    <HeaderLink link='/quiz' title='Quiz'/>
+    <HeaderLink link='/quiz' title='app'/>
   </ul>
 
 </Header>
