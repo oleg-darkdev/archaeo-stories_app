@@ -154,9 +154,9 @@ const items = [
 					<h2>SEE <br />MORE?</h2>
 				</div>
 				<div class="mt-8">
-					<a href="https://44games.vercel.app/" target="_blank" class="btn">
-						<div>More of our educational boardgames</div>
-					</a>
+          <a href="/app" target="_blank" class="yellow font-nanumPen btn">
+            <span class='text-2xl'>Other boardgames</span >
+          </a>
 				</div>
 			</div>
 		</div>

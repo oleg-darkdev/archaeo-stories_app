@@ -35,6 +35,16 @@ p {
   background-color: var(--white);
 }
 
+@media screen and (max-width: 479px) {
+  .btn {
+    padding: 0.3rem;
+    /* font-size: 0.8rem; */
+    position: relative;
+  }
+  .btn.yellow {
+    /* font-size: 1rem; */
+  }
+}
 :root {
   --sienna: #b1560e;
   --white: white;
@@ -2823,21 +2833,8 @@ figure {
   position: relative;
   overflow: hidden;
 }
-.test-slider {
-  height: 100%;
-  background-color: transparent;
-  margin-left: 0;
-  margin-right: auto;
-  overflow: visible;
-}
-.test-slider._1 {
-  width: 30vw;
-}
-.test-slider._2 {
-  width: 30vw;
-  margin-left: auto;
-  margin-right: 0;
-}
+
+
 
 .test--i {
   width: auto;
@@ -2871,9 +2868,7 @@ figure {
 .white-ico {
   font-size: 24px;
 }
-.rot-rev {
-  transform: rotate(6deg);
-}
+
 
 .sec-5.tw {
   color: var(--white);

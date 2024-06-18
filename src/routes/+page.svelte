@@ -624,6 +624,7 @@
                 <div class="_80vw fc1">
                   <h1 class="font-nerkoOne max-w-4xl uppercase text-center">Educational project based on historical researches.</h1>
                 </div>
+                          
               </div>
             </div>
             <!-- <img src="images/64fb5dc0eafa3fed194074e1_image_1042-removebg-preview.webp" loading="lazy" alt="" class="sec-3-img-2 multiply"> -->
